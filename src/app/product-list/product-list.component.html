@@ -8,7 +8,7 @@
 
 	<button (click)="share()">Share {{p.name}}</button>
 
-  <app-product-alerts [product]="p"></app-product-alerts>
+  <app-product-alerts [product]="p" (ntfy)="onNotify()"></app-product-alerts>
 </div>
 
 <!-- 
