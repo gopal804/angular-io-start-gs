@@ -18,7 +18,11 @@ export const products = [
     name: 'Phablet',
     price: 999,
     description: 'Large Tablet Sized Phone'
-
+  },
+  {
+    name: 'Data Device',
+    price: 279,
+    description: 'Data Only Device'
   }
 ];
 
